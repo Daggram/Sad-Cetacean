@@ -83,8 +83,6 @@ width:30%;
 }
 
 #videoSize{
-
-  box-shadow: 0px 5px 25px 5px rgba(26,6,16,0.25);
 max-width: 960px;
 max-height: 720px;
 width: 100%;
