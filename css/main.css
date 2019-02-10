@@ -28,7 +28,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#336ab7', end
 font-family: 'Annie Use Your Telescope', cursive;
 text-align: left;
 color: white;
-perspective: 30px;
+perspective: 200px;
 
 }
 
@@ -457,6 +457,13 @@ opacity: 0.8;
     100%{ transform: translate(0, 2000px); }
 }
 
+#surface-group{
+    overflow: hidden;
+    width: 100%;
+    position: absolute;
+    height: 100%;
+}
+
 #water-surface{
     background: URL(../img/waterbackgroundTransparent.png);
     background-size: contain;
@@ -465,7 +472,8 @@ opacity: 0.8;
     width: 700%;
     height: 80px;
     position: absolute;
-    transform: scale(1.2, 1) rotateX(-6deg);
+    display: block;
+    transform: scale(1.2) rotateX(-150deg);
     animation:70s scroll infinite linear;
 }
 
@@ -473,15 +481,13 @@ opacity: 0.8;
     background: URL(../img/waterbackgroundTransparent.png);
     background-size: contain;
     background-repeat: repeat-x;
-    opacity: 0.2;
+    opacity: 0.3;
     width: 100%;
-    height: 80px;
+    height: 120px;
     position: absolute;
-    transform: rotateX(60deg);
-    transform: scale(2, 1) rotateX(-6deg);
+    transform: scale(1.2) rotateX(-150deg);
 
-
-    animation:50s scroll infinite linear;
+    animation:40s scroll infinite linear;
 }
   
   @keyframes scroll{
@@ -491,7 +497,6 @@ opacity: 0.8;
   }
 
   .coral-group{
-    position: fixed;
     background-color: transparent;
     background: URL(../img/coralgroup.png);
     background-size: contain;
