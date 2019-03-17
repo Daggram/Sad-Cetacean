@@ -512,21 +512,7 @@ opacity: 0.4;
     height: 280px;
     position: absolute;
     display: block;
-    transform: scale(1.2) rotateX(-150deg);
     animation:90s scroll infinite linear;
-}
-
-#water-surface2{
-    background: URL(../img/waterbackgroundTransparent.png);
-    background-size: contain;
-    background-repeat: repeat-x;
-    opacity: 0.1;
-    width: 100%;
-    height: 170px;
-    position: absolute;
-    transform: scale(1.2) rotateX(-150deg);
-
-    animation:40s scroll infinite linear;
 }
 
   @keyframes scroll{
