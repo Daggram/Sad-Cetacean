@@ -495,7 +495,7 @@ opacity: 0.4;
 @keyframes falling{
     100%{ transform: translate(0, 2000px); }
 }
-
+/*
 #surface-group{
     overflow: hidden;
     width: 100%;
@@ -513,7 +513,7 @@ opacity: 0.4;
     position: absolute;
     display: block;
     animation:90s scroll infinite linear;
-}
+}*/
 
   @keyframes scroll{
     100%{
